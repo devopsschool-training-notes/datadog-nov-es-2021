@@ -16,7 +16,7 @@ Lab - Cloud - AWS
 
 rajesh1@devopsschool.com
 
-
+4cd6ebd91b15ca043fbf86c85dd0ba12
 
 
 
@@ -53,8 +53,37 @@ And to run it again run:
 
 Step 3 - Install Agent in Windows
 - 13.235.87.193
+Administrator
+B)5X;-EucuC2tQbW&A2M.Z&F@kivbv;d
+https://www.devopsschool.com/blog/datadog-agent-setup-in-windows-step-by-step-guide/
+
+================LINUX=========================
+Username - ubuntu
+
+Rishav gupta		13.127.8.14
+Ursh Fatma		15.206.158.29
+Praveen Nayak		13.233.27.90
+Vamshi Papani		3.109.49.50
+Likhith P		13.232.237.237
+Prafulla G S		3.6.39.52
+Sumeet Yajnik		35.154.194.230
+Sneha Karuturi		13.235.135.76
+Prathik Reddy		13.233.166.200
+Sushanth		13.233.60.176
+Somali Padhy		13.233.90.107
+Manoj Kumar Chinikela	35.154.22.14
+Manjunath Dodamani	65.2.152.239
+Vijetha patil		13.232.100.207
+Varadharaju D		15.206.75.154
+Vijetha Patil		13.235.95.239
+65.0.18.151
 
 
+------------
+Log Parser
+Service Account 
+API
 
+jenkins log
 
 
