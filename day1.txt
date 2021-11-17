@@ -1,0 +1,60 @@
+Rajesh Kumar
+-------------
+
+9:00 AM IST - 5:PM
+--------------------------
+Lunch - 
+12:30 - 1:30
+-------------
+
+BREAK - 15mins
+11:AM
+3:PM 
+
+Lab - Cloud - AWS 
+------------------
+
+rajesh1@devopsschool.com
+
+
+
+
+
+
+Step 1 - Registe at Datadog
+
+Step 2 - Install Agent in Linux
+- 65.2.129.44
+- https://www.devopsschool.com/blog/how-to-install-datadog-agent-in-ubuntu/
+- https://www.devopsschool.com/blog/how-to-install-datadog-agent-in-centos/
+
+DD_AGENT_MAJOR_VERSION=7 DD_API_KEY=XXXXXXXXXXXXXXXXXXXXXX DD_SITE="datadoghq.eu" bash -c "$(curl -L https://s3.amazonaws.com/dd-agent/scripts/install_script.sh)"
+
+
+
+* Adding your API key to the Agent configuration: /etc/datadog-agent/datadog.yaml
+
+
+* Setting SITE in the Agent configuration: /etc/datadog-agent/datadog.yaml
+
+/usr/bin/systemctl
+* Starting the Agent...
+Your Agent is running and functioning properly. It will continue to run in the
+background and submit metrics to Datadog.
+
+If you ever want to stop the Agent, run:
+
+    sudo systemctl stop datadog-agent
+
+And to run it again run:
+
+    sudo systemctl start datadog-agent
+
+
+Step 3 - Install Agent in Windows
+- 13.235.87.193
+
+
+
+
+
