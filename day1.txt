@@ -105,3 +105,42 @@ Vijetha patil		13.234.75.108	QP5&mOsXcC2&=J4(Nzzx8=5rDtigcEOu
 Varadharaju D		13.232.122.134	.y=PMwjfbR*pXsrorXOllk4KIGKHY2be
 Vijetha Patil		15.206.147.137	ruHx2wSC&jSo7Txy!So26OQ-jffyP?An
 
+
+
+=========================================
+Linux 
+Windows
+-----------------------------
+
+----------------------------------------------
+Process monitor
+https://www.devopsschool.com/blog/how-to-enable-live-process-monitoring-in-datadog-agent/
+https://devopsschool.com/slides/yaml/yaml.html
+
+http - Integ
+https://www.devopsschool.com/blog/how-to-install-configure-datadog-integration-with-apache-httpd/
+
+Docker
+---------------------
+https://www.devopsschool.com/blog/how-to-enable-docker-container-monitoring-in-datadog-agent/
+
+=================TOMO HALFDAY==================
+MySql
+AWS
+Kubernetes
+Jenkins
+- Infra
+- Log
+
+Ansible - Deploy agent in multiple machine
+
+
+
+
+
+
+
+
+
+
+
