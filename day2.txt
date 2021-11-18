@@ -1,0 +1,134 @@
+=================FIRST HALF==================
+MySql
+https://www.devopsschool.com/blog/how-to-setup-datadog-agent-integration-with-mysql-to-collect-many-metrics-from-mysql-databases/
+
+Kubernetes
+--------------------------
+https://www.devopsschool.com/blog/10-best-youtube-channels-for-programmers-and-devops-engineers/
+- https://www.youtube.com/channel/UCrXr49kBvXJeQMMl2693c4g
+- https://www.youtube.com/c/Scmgalaxy
+- https://www.youtube.com/channel/UC2srBvMPv9ISmdYmzE-j0TQ
+- https://www.youtube.com/channel/UCoMCABF9nKWzuLcS7-aAgmA
+
+
+Kubernetes Clustor
+Kubernetes integration with Datadog
+Master + Workstation - 3.110.84.34
+Worker - 15.207.89.152
+https://www.devopsschool.com/blog/setting-up-kubernetes-clusters-using-kubeadm-manual-way-in-rhel-7-centos7/
+---------------------
+Step 1- Setup Kubernetes Clustor
+
+Step 2 - Decide how you want to install datadog Agent>
+---------------------------------------------
+helm | ds | operator
+https://docs.datadoghq.com/agent/kubernetes/?tab=helm
+https://docs.datadoghq.com/agent/kubernetes/?tab=daemonset
+
+
+
+Jenkins
+===========================================
+
+
+
+AWS
+=================
+
+
+Ansible - How to Deploy agent in multiple machine using Ansible?
+==================================================
+
+What is Ansible?
+--------------------
+You can deploy any software using Ansible in multiple servers.
+
+
+How it works|
+==================
+Human -> ACS ---> ARS
+
+ACS
+- Ansible	- Its a tool which need to be installed		DONE
+- inventory	- a file which has list of IP address of ARS	DONE
+- playbooks	- Its a script which need to run in ARS
+
+ARS
+- NOTHING
+
+
+ACS
+----------------
+65.1.111.68
+
+ARS
+-------------
+3.110.84.34
+15.207.89.152
+
+
+
+
+
+
+
+
+
+===================SECOND HALF================
+DATADOG with APM
+
+
+
+
+65.1.111.68
+ubuntu
+
+sudo systemctl stop datadog-agent
+===============================================================
+Setting up an APM for Java Apps
+https://www.devopsschool.com/blog/how-to-setup-datadog-apm-for-java-application-running-with-tomcat/
+
+
+
+
+Step 1 - Install Java			DONE
+Step 2 - Installl Tomcat		DONE
+Step 3 - Install Apps			DONE
+Step 4 - Install APM Agent		DONE
+Step 5 - Generate  a Fake Traffic using Jmeter
+Step 6 - Analyze all APM at DD
+
+http://65.1.111.68:8080/examples/servlets/servlet/HelloWorldExample
+
+
+
+Rishav gupta		3.110.47.26		
+Ursh Fatma		3.110.41.243		
+Praveen Nayak		13.232.118.202	
+Vamshi Papani		13.233.36.22	
+Likhith P		13.233.199.82	
+Prafulla G S		13.126.136.131	
+Sumeet Yajnik		3.110.114.13	
+Sneha Karuturi		65.0.170.14	
+Prathik Reddy		13.232.59.207	
+Sushanth		13.233.154.192		
+Somali Padhy		3.110.90.27	
+Manoj Kumar Chinikela	3.110.115.146	
+Manjunath Dodamani	13.235.83.84	
+Vijetha patil		65.0.181.16	
+Varadharaju D		13.233.155.220	
+Vijetha Patil		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
