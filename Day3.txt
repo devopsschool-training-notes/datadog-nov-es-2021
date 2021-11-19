@@ -1,0 +1,49 @@
+The secure TCP endpoint is intake.logs.datadoghq.com(or port 10514 for nonsecure connections).
+
+telnet intake.logs.datadoghq.com 10514
+<DATADOG_API_KEY> Plain text log sent through TCP
+
+
+telnet intake.logs.datadoghq.com 10514
+<DATADOG_API_KEY> {"message":"JSON formatted log sent through TCP", "ddtags":"env:dev", "ddsource":"terminal", "hostname":"gs-hostame", "service":"user"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Install the Datadog Agent
+
+- Verify Datadog Agent Status and Look for "Logs Agent" which is not running.
+$ sudo datadog-agent status
+
+- Enable log collection
+To enable log collection with the Agent, edit the datadog.yaml configuration file located at /etc/datadog-agent/datadog.yaml and set logs_enabled:true
+
+- Monitor a custom file
+$ touch log_file_to_monitor.log
+$ echo "First line of log" >> log_file_to_monitor.log
+$ sudo mkdir /etc/datadog-agent/conf.d/custom_log_collection.d/
+$ sudo touch /etc/datadog-agent/conf.d/custom_log_collection.d/conf.yaml
+logs:
+    - type: file
+      path: /home/ubuntu/log_file_to_monitor.log
+      source: custom
+      service: user
+$ sudo service datadog-agent restart
+
+-  Validation. Verify Dsudo datadog-agent status
+atadog Agent Status and Look for "Logs Agent" which is running.
+$
+- Add new logs to the file
+$ echo "New line of log in the log file" >> log_file_to_monitor.log
